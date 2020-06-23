@@ -1,0 +1,27 @@
+#!/bin/bash -e
+#
+# S2I assemble script for the 'lighttpd-centos7' image.
+# The 'assemble' script builds your application source so that it is ready to run.
+#
+# For more information refer to the documentation:
+#	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
+#
+
+# If the 'lighttpd-centos7' assemble script is executed with the '-h' flag, print the usage.
+if [[ "$1" == "-h" ]]; then
+	exec /usr/libexec/s2i/usage
+fi
+# Important Point to be noted 
+# By default the s2i build places the application source in /tmp/src directory.
+# This directory is where the source and other assets will be placed for the build process. 
+#You can modify this location by setting the io.openshift.s2i.destination label or 
+# passing --destination flag, in which case the sources will be placed in the src subdirectory of the directory you specified. 
+#The destination in the above command (./) is using working directory set in the openshift/base-centos7 image, 
+#which is set to be /opt/app-root/src.
+
+echo "---> Installing application source..."
+cp -Rf /tmp/src/. ./
+
+echo "---> Building application from source..."
+# TODO: Add build steps for your application, eg npm install, bundle install, pip install, etc.
+# Below you can write all teh steps for builidng the Artifcat / Source code 

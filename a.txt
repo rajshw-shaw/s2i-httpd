@@ -1,0 +1,136 @@
+dprod-blue-acc-redis-vm-a-1               us-east1-b     custom (10 vCPU, 64.00 GiB)                10.208.248.147               RUNNING
+dprod-blue-batch-admin-vm-pw5c            us-east1-b     n1-standard-1                              10.208.248.154               RUNNING
+dprod-blue-cnc-batch-master-vm-9pvf       us-east1-b     custom (8 vCPU, 16.00 GiB)                 10.208.248.211               RUNNING
+dprod-blue-cnc-batch-slave-vm-1           us-east1-b     custom (8 vCPU, 16.00 GiB)                 10.208.248.218               RUNNING
+dprod-blue-cnc-cinf-redis-vm-a-1          us-east1-b     custom (10 vCPU, 64.00 GiB)                10.208.248.4                 RUNNING
+dprod-blue-cnc-redis-vm-a-1               us-east1-b     custom (16 vCPU, 64.00 GiB)                10.208.248.89                RUNNING
+dprod-blue-kafka-mm-pmdm-1                us-east1-b     n1-standard-2                              10.208.248.187               RUNNING
+dprod-blue-kafka-vm-1                     us-east1-b     n1-standard-16                             10.208.248.13                RUNNING
+dprod-blue-kafka-zk-vm-0                  us-east1-b     n1-standard-4                              10.208.248.144               RUNNING
+dprod-blue-kasstool-prod-pbch             us-east1-b     n1-standard-8                              10.208.248.84                RUNNING
+dprod-blue-kemservice-gjr0                us-east1-b     n1-standard-4                              10.208.248.55                RUNNING
+dprod-blue-main-zk-vm-0                   us-east1-b     n1-standard-4                              10.208.248.181               RUNNING
+dprod-blue-mem-mem-vm-1                   us-east1-b     n1-standard-8                              10.208.248.204               RUNNING
+dprod-blue-mysql-acc-vm-1                 us-east1-b     custom (16 vCPU, 80.00 GiB)                10.208.248.59                RUNNING
+dprod-blue-mysql-audit-vm-1               us-east1-b     custom (34 vCPU, 128.00 GiB)               10.208.248.62                RUNNING
+dprod-blue-mysql-batch-vm-1               us-east1-b     n1-standard-4                              10.208.248.155               RUNNING
+dprod-blue-mysql-ndbdata-cnc-2-vm-1       us-east1-b     custom (16 vCPU, 120.00 GiB)               10.208.248.24                RUNNING
+dprod-blue-mysql-ndbdata-cnc-2-vm-4       us-east1-b     custom (16 vCPU, 120.00 GiB)               10.208.248.37                RUNNING
+dprod-blue-mysql-ndbsqlmgmt-cnc-2-vm-1-a  us-east1-b     custom (8 vCPU, 60.00 GiB)                 10.208.248.191               RUNNING
+dprod-blue-mysql-order-vm-1               us-east1-b     custom (32 vCPU, 240.00 GiB)               10.208.248.83                RUNNING
+dprod-blue-mysql-reporting-vm-1           us-east1-b     custom (16 vCPU, 80.00 GiB)                10.208.248.23                RUNNING
+dprod-blue-mysql-tvs-vm-1                 us-east1-b     custom (16 vCPU, 80.00 GiB)                10.208.248.66                RUNNING
+dprod-blue-pmm-vm-1                       us-east1-b     n1-standard-8                              10.208.248.87                RUNNING
+dprod-blue-prd-mongodb-vm-m1-0            us-east1-b     custom (8 vCPU, 104.00 GiB)                10.208.248.52                RUNNING
+dprod-blue-prf-redis-vm-a-1               us-east1-b     custom (10 vCPU, 64.00 GiB)                10.208.248.85                RUNNING
+dprod-blue-rundeck-agent-1                us-east1-b     n1-standard-4                              10.208.248.29                RUNNING
+dprod-blue-rundeck-vm-jnk0                us-east1-b     n1-standard-4                              10.208.248.92                RUNNING
+dprod-blue-searchrestapi-ind-9kp0         us-east1-b     n1-highmem-16                              10.208.128.68                RUNNING
+dprod-blue-searchrestapi-sl-l27s          us-east1-b     n1-highmem-16                              10.208.128.69                RUNNING
+dprod-blue-searchrestapi-sl-proxy-846h    us-east1-b     n1-standard-2                              10.208.248.208               RUNNING
+dprod-blue-snb-batch-master-vm-ccct       us-east1-b     n1-standard-8                              10.208.248.16                RUNNING
+dprod-blue-snb-batch-slave-vm-1-a         us-east1-b     n1-standard-8                              10.208.248.110               RUNNING
+dprod-blue-snb-batch-slave-vm-1-b         us-east1-b     n1-standard-8                              10.208.248.70                TERMINATED
+dprod-blue-snb-redis-vm-a-1               us-east1-b     custom (10 vCPU, 64.00 GiB)                10.208.248.80                RUNNING
+dprod-blue-tvs-redis-vm-a-1               us-east1-b     custom (10 vCPU, 64.00 GiB)                10.208.248.27                RUNNING
+dprod-blue-zkui-mosaic-prod-p9gn          us-east1-b     n1-standard-1                              10.208.248.41                RUNNING
+dprod-cnc-svc-corp-proxy-5v3c             us-east1-b     n1-standard-2                              10.208.248.183               RUNNING
+dprod-consul-0-11cr                       us-east1-b     n1-standard-8                              10.208.248.40                RUNNING
+dprod-green-accservice-prod-8tqp          us-east1-b     n1-standard-8                              10.208.248.58                RUNNING
+dprod-green-accservice-prod-proxy-knz8    us-east1-b     n1-standard-2                              10.208.240.7                 RUNNING
+dprod-green-accui-prod-hq7c               us-east1-b     n1-standard-2                              10.208.240.68                RUNNING
+dprod-green-accui-prod-proxy-z5c7         us-east1-b     n1-standard-2                              10.208.240.48                RUNNING
+dprod-green-cnc-svc-corp-t9hr             us-east1-b     n1-standard-4                              10.208.248.38                RUNNING
+dprod-green-cncservice-prod-00db          us-east1-b     n1-standard-16                             10.208.248.231               RUNNING
+dprod-green-cncservice-prod-proxy-c0rz    us-east1-b     n1-standard-2                              10.208.240.3                 RUNNING
+dprod-green-cncui-prod-4h6h               us-east1-b     n1-standard-2                              10.208.240.72                RUNNING
+dprod-green-cncui-prod-clvr               us-east1-b     n1-standard-2                              10.208.240.90                RUNNING
+dprod-green-cncui-prod-proxy-lx7j         us-east1-b     n1-standard-2                              10.208.240.50                RUNNING
+dprod-green-cncui-prod-rdm3               us-east1-b     n1-standard-2                              10.208.240.91                RUNNING
+dprod-green-cncui-prod-zt8z               us-east1-b     n1-standard-2                              10.208.240.93                RUNNING
+dprod-green-cscservice-prod-ngc0          us-east1-b     n1-standard-8                              10.208.248.67                RUNNING
+dprod-green-cscui-prod-q61s               us-east1-b     n1-standard-4                              10.208.240.60                RUNNING
+dprod-green-hystrix-vm                    us-east1-b     n1-standard-1                              10.208.248.5                 RUNNING
+dprod-green-kioskapp-n0bf                 us-east1-b     n1-standard-8                              10.208.248.49                RUNNING
+dprod-green-kioskapp-proxy-gjtq           us-east1-b     n1-standard-2                              10.208.248.3                 RUNNING
+dprod-green-snbservice-prod-f84m          us-east1-b     n1-standard-8                              10.208.240.35                RUNNING
+dprod-green-snbservice-prod-proxy-1km9    us-east1-b     n1-standard-2                              10.208.240.77                RUNNING
+dprod-green-snbui-bot-proxy-54mc          us-east1-b     n1-standard-2                              10.208.240.98                RUNNING
+dprod-green-snbui-prod-63s8               us-east1-b     n1-standard-2                              10.208.240.73                RUNNING
+dprod-green-snbui-prod-proxy-nlq6         us-east1-b     n1-standard-2                              10.208.240.86                RUNNING
+dprod-green-taxwareservice-wjx0           us-east1-b     n1-standard-4                              10.208.248.217               RUNNING
+dprod-green-tvscncapi-mn38                us-east1-b     n1-standard-8                              10.208.248.32                RUNNING
+dprod-green-tvscncloader-5s6s             us-east1-b     n1-standard-8                              10.208.248.227               RUNNING
+dprod-green-tvsecomapi-dgs0               us-east1-b     n1-standard-8                              10.208.248.221               RUNNING
+dprod-green-tvsecomapi-proxy-xgx6         us-east1-b     n1-standard-2                              10.208.248.107               RUNNING
+dprod-green-tvsecomimport-3snm            us-east1-b     n1-standard-8                              10.208.248.50                RUNNING
+dprod-green-tvsecomloader-7xlq            us-east1-b     n1-standard-8                              10.208.248.48                RUNNING
+dprod-jump-server                         us-east1-b     n1-standard-2                              10.208.240.5                 RUNNING
+dprod-tonomirunner                        us-east1-b     n1-standard-1                              10.208.248.33                RUNNING
+dprod-vault-0-jzg6                        us-east1-b     n1-standard-4                              10.208.248.210               RUNNING
+dprod-blue-acc-redis-vm-b-1               us-east1-c     custom (10 vCPU, 64.00 GiB)                10.208.248.173               RUNNING
+dprod-blue-cnc-cinf-redis-vm-b-1          us-east1-c     custom (10 vCPU, 64.00 GiB)                10.208.248.117               RUNNING
+dprod-blue-cnc-redis-vm-b-1               us-east1-c     custom (16 vCPU, 64.00 GiB)                10.208.248.172               RUNNING
+dprod-blue-kafka-vm-2                     us-east1-c     n1-standard-16                             10.208.248.77                RUNNING
+dprod-blue-kafka-zk-vm-1                  us-east1-c     n1-standard-4                              10.208.248.186               RUNNING
+dprod-blue-kemservice-zbn1                us-east1-c     n1-standard-4                              10.208.248.56                RUNNING
+dprod-blue-main-zk-vm-1                   us-east1-c     n1-standard-4                              10.208.248.103               RUNNING
+dprod-blue-mysql-ndbdata-cnc-2-vm-2       us-east1-c     custom (16 vCPU, 120.00 GiB)               10.208.248.90                RUNNING
+dprod-blue-mysql-ndbsqlmgmt-cnc-2-vm-1-b  us-east1-c     custom (8 vCPU, 60.00 GiB)                 10.208.248.159               RUNNING
+dprod-blue-mysql-reporting-vm-2           us-east1-c     custom (16 vCPU, 80.00 GiB)                10.208.248.25                RUNNING
+dprod-blue-prd-mongodb-vm-m2-0            us-east1-c     custom (8 vCPU, 104.00 GiB)                10.208.248.132               RUNNING
+dprod-blue-prf-redis-vm-b-1               us-east1-c     custom (10 vCPU, 64.00 GiB)                10.208.248.96                RUNNING
+dprod-blue-searchrestapi-sl-proxy-mgnr    us-east1-c     n1-standard-2                              10.208.248.125               RUNNING
+dprod-blue-searchrestapi-sl-q3sp          us-east1-c     n1-highmem-16                              10.208.128.70                RUNNING
+dprod-blue-snb-batch-slave-vm-2-a         us-east1-c     n1-standard-8                              10.208.248.109               TERMINATED
+dprod-blue-snb-batch-slave-vm-2-b         us-east1-c     n1-standard-8                              10.208.248.213               TERMINATED
+dprod-blue-snb-redis-vm-b-1               us-east1-c     custom (10 vCPU, 64.00 GiB)                10.208.248.86                RUNNING
+dprod-blue-stg-mongodb-vm-m1-0            us-east1-c     n1-highmem-8                               10.208.248.142               RUNNING
+dprod-blue-tvs-redis-vm-b-1               us-east1-c     custom (10 vCPU, 64.00 GiB)                10.208.248.151               RUNNING
+dprod-cnc-svc-corp-proxy-bz9x             us-east1-c     n1-standard-2                              10.208.248.137               RUNNING
+dprod-consul-1-sjjm                       us-east1-c     n1-standard-8                              10.208.248.113               RUNNING
+dprod-green-accservice-prod-280v          us-east1-c     n1-standard-8                              10.208.248.228               RUNNING
+dprod-green-accui-prod-sgmc               us-east1-c     n1-standard-2                              10.208.240.71                RUNNING
+dprod-green-cncservice-prod-rdgj          us-east1-c     n1-standard-16                             10.208.248.232               RUNNING
+dprod-green-cncui-prod-cnlh               us-east1-c     n1-standard-2                              10.208.240.80                RUNNING
+dprod-green-cncui-prod-fbff               us-east1-c     n1-standard-2                              10.208.240.81                RUNNING
+dprod-green-cncui-prod-fmt7               us-east1-c     n1-standard-2                              10.208.240.79                RUNNING
+dprod-green-cncui-prod-gws4               us-east1-c     n1-standard-2                              10.208.240.78                RUNNING
+dprod-green-cscservice-prod-gdvj          us-east1-c     n1-standard-8                              10.208.248.236               RUNNING
+dprod-green-cscui-prod-gh1b               us-east1-c     n1-standard-4                              10.208.240.82                RUNNING
+dprod-green-kioskapp-d3jt                 us-east1-c     n1-standard-8                              10.208.248.234               RUNNING
+dprod-green-taxwareservice-2jxn           us-east1-c     n1-standard-4                              10.208.248.222               RUNNING
+dprod-green-tvscncapi-pjkn                us-east1-c     n1-standard-8                              10.208.248.2                 RUNNING
+dprod-green-tvsecomapi-8rv7               us-east1-c     n1-standard-8                              10.208.248.224               RUNNING
+dprod-vault-1-3s0b                        us-east1-c     n1-standard-4                              10.208.248.76                RUNNING
+dprod-blue-acc-redis-vm-c-1               us-east1-d     custom (10 vCPU, 64.00 GiB)                10.208.248.182               RUNNING
+dprod-blue-cnc-cinf-redis-vm-c-1          us-east1-d     custom (10 vCPU, 64.00 GiB)                10.208.248.145               RUNNING
+dprod-blue-cnc-redis-vm-c-1               us-east1-d     custom (16 vCPU, 64.00 GiB)                10.208.248.97                RUNNING
+dprod-blue-kafka-vm-3                     us-east1-d     n1-standard-16                             10.208.248.54                RUNNING
+dprod-blue-kafka-zk-vm-2                  us-east1-d     n1-standard-4                              10.208.248.138               RUNNING
+dprod-blue-kemservice-b5sh                us-east1-d     n1-standard-4                              10.208.248.225               RUNNING
+dprod-blue-main-zk-vm-2                   us-east1-d     n1-standard-4                              10.208.248.185               RUNNING
+dprod-blue-mysql-ndbdata-cnc-2-vm-3       us-east1-d     custom (16 vCPU, 120.00 GiB)               10.208.248.47                RUNNING
+dprod-blue-mysql-ndbsqlmgmt-cnc-2-vm-1-c  us-east1-d     custom (8 vCPU, 60.00 GiB)                 10.208.248.26                RUNNING
+dprod-blue-prf-redis-vm-c-1               us-east1-d     custom (10 vCPU, 64.00 GiB)                10.208.248.152               RUNNING
+dprod-blue-searchrestapi-sl-ft25          us-east1-d     n1-highmem-16                              10.208.128.71                RUNNING
+dprod-blue-searchrestapi-sl-proxy-k0qp    us-east1-d     n1-standard-2                              10.208.248.146               RUNNING
+dprod-blue-snb-batch-slave-vm-3-b         us-east1-d     n1-standard-8                              10.208.248.112               TERMINATED
+dprod-blue-snb-redis-vm-c-1               us-east1-d     custom (10 vCPU, 64.00 GiB)                10.208.248.177               RUNNING
+dprod-blue-tvs-redis-vm-c-1               us-east1-d     custom (10 vCPU, 64.00 GiB)                10.208.248.167               RUNNING
+dprod-cnc-svc-corp-proxy-hklb             us-east1-d     n1-standard-2                              10.208.248.39                RUNNING
+dprod-consul-2-vn1l                       us-east1-d     n1-standard-8                              10.208.248.115               RUNNING
+dprod-green-accservice-prod-tlz3          us-east1-d     n1-standard-8                              10.208.248.229               RUNNING
+dprod-green-accui-prod-0mht               us-east1-d     n1-standard-2                              10.208.240.69                RUNNING
+dprod-green-cncservice-prod-9ngf          us-east1-d     n1-standard-16                             10.208.248.233               RUNNING
+dprod-green-cncui-prod-3d8j               us-east1-d     n1-standard-2                              10.208.240.83                RUNNING
+dprod-green-cncui-prod-ccdw               us-east1-d     n1-standard-2                              10.208.240.84                RUNNING
+dprod-green-cncui-prod-m9hj               us-east1-d     n1-standard-2                              10.208.240.89                RUNNING
+dprod-green-cncui-prod-s95w               us-east1-d     n1-standard-2                              10.208.240.87                RUNNING
+dprod-green-cscservice-prod-sv05          us-east1-d     n1-standard-8                              10.208.248.235               RUNNING
+dprod-green-cscui-prod-34g5               us-east1-d     n1-standard-4                              10.208.240.85                RUNNING
+dprod-green-kioskapp-p84n                 us-east1-d     n1-standard-8                              10.208.248.61                RUNNING
+dprod-green-taxwareservice-kq56           us-east1-d     n1-standard-4                              10.208.248.220               RUNNING
+dprod-green-tvscncapi-btkk                us-east1-d     n1-standard-8                              10.208.248.226               RUNNING
+dprod-green-tvsecomapi-mpv5               us-east1-d     n1-standard-8                              10.208.248.223               RUNNING
+dprod-vault-2-gzf8                        us-east1-d     n1-standard-4                              10.208.248.214               RUNNING
